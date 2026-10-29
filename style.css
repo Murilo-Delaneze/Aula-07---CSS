@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #253348;
+    background-color: #f2f5f9;
+}
+
+/* Cabeçalho */
+.topo{
+    background-color: #173d69;
+    color: white;
+    padding: 24px;
+}
+
+.topo h1{
+    margin-bottom: 8px;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-horizontal a{
+    background-color: #253348;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+.menu-horizontal a:hover{
+    background-color: black;
+    transition: background-color 0.8s ease-in-out;
+    cursor: row-resize;
+    padding: 20px;
+}
+
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.menu-lateral{
+    width: 205px;
+    background-color: #e4ebf5;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.menu-lateral h2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.menu-lateral ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral a{
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+}
+
+.menu-lateral a:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+    transition: background-color 0.8s ease-in-out;
+    transition: box-shadow 0.8s ease-in-out;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.section{
+    padding:20px;
+    margin-bottom: 16px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+}
+
+.section h2{
+    color: #173d69;
+}
+
+.imagem{
+    width: 300px;
+    border: 2px solid lightskyblue;
+    border-radius: 4px;
+}
+
+.lista-conteudo{
+    font-size: 18px;
+    list-style: upper-roman;
+
+}
+
+table{
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: lightgrey;
+}
+
+.link{
+    background-color: #175f9e;
+    color: whitesmoke;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.link:hover{
+    filter: brightness(60%);
+    transition: filter 0.8s ease-in-out;
+}
