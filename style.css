@@ -141,3 +141,16 @@ th{
     filter: brightness(60%);
     transition: filter 0.8s ease-in-out;
 }
+
+.menu-horizontal .submenu{
+    display: none;
+}
+
+.menu-horizontal li:hover .submenu{
+    display: block;
+}
+
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
+}
